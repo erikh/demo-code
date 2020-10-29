@@ -31,16 +31,16 @@ func BenchmarkString5Len(b *testing.B) {
 }
 
 func BenchmarkString25Len(b *testing.B) {
-	fmt.Println("String generation at length: 5")
+	fmt.Println("String generation at length: 25")
 	makeLenBench(b, 25)
 }
 
 func BenchmarkString100Len(b *testing.B) {
-	fmt.Println("String generation at length: 5")
+	fmt.Println("String generation at length: 100")
 	makeLenBench(b, 100)
 }
 
 func BenchmarkString500Len(b *testing.B) {
-	fmt.Println("String generation at length: 5")
+	fmt.Println("String generation at length: 500")
 	makeLenBench(b, 500)
 }
